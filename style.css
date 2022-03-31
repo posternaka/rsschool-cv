@@ -2,6 +2,10 @@ body {
     color: #ccc;
 }
 
+hr {
+    border: 2px solid rgba(204, 204, 204, .9);
+}
+
 .aboutMeText {
     border-left: 4px solid rgba(204, 204, 204, .9);
     color: rgba(59, 59, 59, 0.8);
