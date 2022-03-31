@@ -23,3 +23,25 @@ I'm interested in what I do. I try to give my best. Sometimes it is difficult, b
 - CSS3
 - JS(ES6)
 - React(Basic)
+
+### my code example:
+_You will be given a number and you will need to return it as a string in Expanded Form._
+
+For example: **expandedForm(12);**   _// Should return '10 + 2'_
+```function expandedForm(num) {
+  let res = '';
+  for(let i = 0; i < String(num).length; i++) {
+    if(String(num)[i] != 0) {
+      res += (Math.pow(10, String(num).slice(i).length - 1) * String(num)[i] + ' ');
+    } 
+  }
+  return res.trim().split(' ').join(' + ');
+}
+```
+
+### courses:
+- Redev(JS)
+- [Udemy](https://www.udemy.com/course/javascript_full)
+  
+___
+## Let's work together :)
