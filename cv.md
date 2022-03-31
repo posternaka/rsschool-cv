@@ -42,6 +42,10 @@ For example: **expandedForm(12);**   _// Should return '10 + 2'_
 ### courses:
 - Redev(JS)
 - [Udemy](https://www.udemy.com/course/javascript_full)
-  
+
+### languages:
+- **Russian** - Native
+- **English** - B1 in progress
+
 ___
 ## Let's work together :)
